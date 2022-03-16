@@ -88,7 +88,7 @@ Vmware 16.0 Pro + Ubuntu 20.04
 
 HelloOS作为一个操作系统启动项供GRUB启动，因此需要能够在PC启动时进入GRUB引导菜单，并选择启动HelloOS。
 
-**(1) 修改`/etc/default/grub`**![modify_etc_default_grub](D:\Work\modify_etc_default_grub.jpg)
+**(1) 修改`/etc/default/grub`**![modify_etc_default_grub](modify_etc_default_grub.jpg)
 
 - 注释掉GRUB_TIMEOUT_STYLE=hidden
 - GRUB_TIMEOUT=10（10s等待时间）
@@ -104,7 +104,7 @@ $ sudo update-grub
 
 **修改/boot/grub/grub.cfg**
 
-![modify_boot_grub_grub-cfg](D:\Work\modify_boot_grub_grub-cfg.jpg)
+![modify_boot_grub_grub-cfg](modify_boot_grub_grub-cfg.jpg)
 
 - set root属性填写/boot/目录所在分区，使用命令 `df /boot/` 查看
 
