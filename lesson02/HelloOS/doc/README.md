@@ -116,6 +116,12 @@ Filesystem     1K-blocks    Used Available Use% Mounted on
 
 - insmod加载模块，参考系统已有的启动项设置
 
-##### 3.4 启动Hello OS
+##### 3.4 拷贝HelloOS.bin到/boot/目录下
+
+```shell
+$ sudo cp HelloOS.bin /boot/
+```
+
+##### 3.5 启动Hello OS
 
 重启虚拟机，可见到Hello OS启动项。
